@@ -1,0 +1,170 @@
+/* Global css */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+    text-align: center;
+    padding: 75px 0;
+}
+.heading{
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+
+}
+.sub-heading{
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+.underline{
+    border-top: 5px solid rgba(0, 0, 0, 0.116);
+    width: 7% !important;
+    margin: 15px auto !important;
+}
+.writeing-par p{
+    width: 50%;
+    margin: auto;
+}
+.writeing-part{
+    margin-bottom: 50px;
+}
+.box{
+    padding: 0px 25px;
+}
+p {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.btn{
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/* layout */
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* Header part */
+header{
+    background-color: #87509c;
+    color: #fff;
+}
+nav{
+    padding: 10px 0px;
+}
+.menu-part{
+    text-align: right;
+    padding: 10px 0px;
+}
+.menu-part li{
+    display: inline-block;
+    margin: 0px 5px;
+    
+}
+.menu-part li a {
+    padding: 7px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.menu-part li a:hover{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+.hero-part{
+    text-align: center;
+    padding: 100px 150px;
+}
+.hero-part a button{
+    background-color: #eb7d4b;
+    color: #fff;
+    margin-top: 30px;
+}
+.hero-part h1{
+    font-size: 45px;
+    line-height: 45px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+[class*="col-"] {
+    float: left;
+  }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+  }
+/* Main part */
+#service{
+    /* width: 100%;
+    float: left; */
+    background-color: #17c2a4;
+    color: #fff;
+}
+#service .box img{
+    height: 150px;
+}
+/* team part */
+#team{
+    /* width: 100%;
+    float: left; */
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+.team-icon-box{
+    margin-top: 30px;
+}
+.team-icon-box i{
+    font-size: 12px;
+    background-color: #3c4761;
+    color: #fff;
+    padding: 6px;
+    width: 25px;
+    border-radius: 100%;
+}
+.team-icon-box i:hover{
+    background-color: #bdd1df;
+}
+# .box .sub-heading{
+    margin-bottom: 0px;
+}
+.title{
+    font-size: 15px;
+    color: hsl(195, 79%, 60%);
+    margin-bottom: 25px;
+}
+/* skill part */
+#skill{
+    /* width: 100%;
+    float: left; */
+    background-color: #ffffff;
+    color: #3c4761;
+}
+/* portfolio section */
+#portfolio {
+    background-color: #ffdd99;
+    color: #fff;
+}
